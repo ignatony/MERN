@@ -1,0 +1,31 @@
+https://blog.logrocket.com/mern-stack-a-to-z-part-2/
+
+
+
+$ npx create-react-app client
+$ yarn start / npm start
+Now open http://localhost:3000 to view it in the browser. This page will automatically reload if you make changes to the code.
+
+Dependencies packages installation
+Now, use the following command to add some necessary dependencies:
+
+$ npm install --save react-router-dom
+$ npm install --save axios
+
+change code client/public/index.html
+
+Adding our feature components
+Create
+
+CreateBook.js
+ShowBookList.js
+BookCard.js
+ShowBookDetails.js
+UpdateBookInfo.js
+
+Setup route
+Open the folder called App.js 
+inside the src folder (client/src/App.js), and replace it with the code:
+Update a CSS file called App.css in the src folder with code:
+
+ npm run app

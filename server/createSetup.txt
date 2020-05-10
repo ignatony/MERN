@@ -1,0 +1,41 @@
+Server setup with Express and Node
+npm package initialization
+Our first task is to create a project folder. Enter the folder through the terminal, then run the following command:
+
+$ npm init
+
+Dependencies packages installation
+
+$ npm i express mongoose body-parser bcryptjs validation
+
+bcryptjs is a password hashing function designed by Niels Provos and David Mazières
+body-parser allows us to get the data throughout the request
+express is our main framework
+mongoose is used to connect/interact with MongoDB
+validation (as its name implies) is used for validation
+
+$ npm i -D nodemon
+
+Setting the entry point
+
+Now create a file named app.js for our entry point.
+
+Setting the entry point
+Now create a file named app.js for our entry point.
+
+$ node app
+Server running on port 8082. You can also check it from the browser: open the browser and enter http://localhost:8082
+
+Update your app.js
+
+$ npm i config
+$ npm i cors
+
+
+RESTful APIs
+
+add routes/api/books.js
+
+models folder, create a file called Book.js
+
+$ npm run app
